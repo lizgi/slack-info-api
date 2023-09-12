@@ -21,11 +21,11 @@ public class SlackInfoService {
         } else {
             slackInfo.setCurrent_day(dayOfWeek);
         }
-        slackInfo.setSlack_name("Elizabeth");
+        slackInfo.setSlack_name("Liz");
         slackInfo.setTrack("Backend");
         slackInfo.setUtc_time(generateTimestamp());
-        slackInfo.setGithub_file_url("D:/HNG/slackApi/src/main/java/com/liz/service");
-        slackInfo.setGithub_repo_url("repo_rtyui");
+        slackInfo.setGithub_file_url("https://github.com/lizgi/slack-info-api/blob/master/src/main/java/com/liz/service/SlackInfoService.java");
+        slackInfo.setGithub_repo_url("https://github.com/lizgi/slack-info-api");
         slackInfo.setStatus_code(200);
 
         return slackInfo;
